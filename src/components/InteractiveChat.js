@@ -343,23 +343,6 @@ const InteractiveChat = () => {
         handleSendMessage(userInput);
     };
 
-    // Função para limpar o histórico da conversa (mantida funcionando mas não visível)
-    const clearConversation = () => {
-        const welcomeMessage = {
-            id: `welcome-${Date.now()}`,
-            text: t.chat.welcome,
-            isBot: true,
-            options: Object.values(t.chat.options),
-        };
-
-        setMessages([welcomeMessage]);
-        setConversationHistory([{
-            role: 'assistant',
-            content: t.chat.welcome
-        }]);
-        setIsTyping(false);
-        setUserInput('');
-    };
 
     return (
         <section className="chat-section">

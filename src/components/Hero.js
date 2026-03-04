@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 import './Hero.css';
 
 const Hero = () => {
-  const { isDarkMode } = useTheme();
+  useTheme();
   const { t } = useLanguage();
 
   return (
