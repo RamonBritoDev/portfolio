@@ -9,12 +9,13 @@ const translations = {
       education: 'Educação',
       experience: 'Experiência',
       chat: 'Vamos Conversar',
-      talks: 'Palestras'
+      talks: 'Palestras',
+      awards: 'Premiações'
     },
     hero: {
       title: 'Ramon Brito',
-      role: 'Desenvolvedor & Especialista em Cibersegurança',
-      description: 'Estudante de Engenharia de Software, Diretor de Educação na LaSEC e desenvolvedor com foco em cibersegurança e IA. Comprometido em tornar a tecnologia mais acessível e segura através da educação e inovação.',
+      role: 'Desenvolvedor focado em Inteligência Artificial & Automação',
+      description: 'Estudante de Engenharia de Software e desenvolvedor com foco na criação de produtos de IA, integrações com WhatsApp e FastAPI. Experiência na criação de soluções automatizadas, com conhecimentos adicionais em cibersegurança.',
       buttons: {
         projects: 'Ver Projetos',
         chat: 'Fale Comigo'
@@ -22,7 +23,7 @@ const translations = {
     },
     projects: {
       title: 'Projetos em Destaque',
-      description: 'Conheça alguns dos meus principais projetos em cibersegurança e educação.',
+      description: 'Conheça alguns dos meus principais projetos focados em Criação de Soluções com IA e Automação.',
       viewProject: 'Ver Projeto'
     },
     chat: {
@@ -39,12 +40,12 @@ const translations = {
         contact: '📱 Como posso te contatar?'
       },
       responses: {
-        about: '🎯 Prazer em conhecer você! Sou Ramon Brito, 24 anos, estudante de Engenharia de Software e apaixonado por tecnologia:\n\n• Diretor de Educação na LaSEC (Liga Acadêmica de Cibersegurança)\n• Desenvolvedor com foco em cibersegurança e IA\n• Palestrante e Educador em Tecnologia\n• Comprometido com educação tecnológica acessível e segura\n\nQuer saber mais sobre alguma área específica?',
-        experience: '💼 Que legal seu interesse! Aqui está minha experiência profissional:\n\n• Estagiário de TI - CRECI-CE (2024 - Atual)\n  - Suporte técnico (chamados N1)\n  - Manutenção e otimização de infraestrutura\n  - Participação em projetos de desenvolvimento\n\n• Estagiário Técnico - SEINF (2021)\n  - Análise de projetos de obras públicas\n  - Criação de relatórios técnicos\n\n• Diretor de Educação - LaSEC\n  - Criação de conteúdos educacionais\n  - Organização de eventos de segurança\n  - Formação de novos profissionais\n\nQuer saber mais detalhes sobre alguma dessas experiências?',
-        projects: '🚀 Ótima pergunta! Aqui estão meus principais projetos:\n\n• Portfolio Interativo\n  - Interface de chat multilíngue\n  - Design responsivo e moderno\n  - React.js e Context API\n\n• IA Local para Atendimento\n  - Integração com WhatsApp\n  - LLMs locais e Docker\n  - Segurança offline\n\n• Robot Dog Apollo\n  - Integração de sensores\n  - Automação residencial segura\n  - ESP32 e HLK-LD2410B\n\n• Gerador de Senhas Seguras\n  - Ferramenta online\n  - Senhas aleatórias e seguras\n\nGostaria de conhecer mais sobre algum desses projetos?',
-        skills: '💻 Que bom que perguntou! Aqui estão minhas principais habilidades:\n\n• Linguagens & Frameworks\n  - Python, Java, JavaScript, C++\n  - Node.js, Flask, React.js\n\n• DevOps & Infraestrutura\n  - Git, Docker, REST APIs\n  - Linux (Arch, Ubuntu)\n  - SQL e CLI\n\n• Cibersegurança\n  - LLMs locais\n  - Desafios CTF\n  - Firewall em Python\n\n• Soft Skills\n  - Didática\n  - Liderança de equipe\n  - Resolução de problemas\n\nQuer saber mais sobre alguma dessas tecnologias?',
-        education: '📚 Que bom seu interesse! Aqui está minha formação:\n\n• Graduação em Engenharia de Software\n  - Centro Universitário Ateneu\n  - 4º Semestre (2024-2027)\n\n• Ensino Médio Técnico\n  - EEEP Juarez Távora\n  - Concluído em 2021\n\n• Certificações\n  - ITIL Introduction (2024)\n\n• Eventos e Palestras\n  - Universo UniAteneu\n  - Competição CTF - LaSEC\n  - Inclusão Digital no Lar Três Irmãs\n\nGostaria de saber mais sobre alguma área específica?',
-        contact: '📱 Fico feliz com seu interesse! Aqui estão as melhores formas de me contatar:\n\n• Telefone\n  - (85) 99253-9800\n\n• Email\n  - ramonbritodev@gmail.com\n\n• LinkedIn\n  - linkedin.com/in/ramon-brito-439975279\n\n• Instagram da LaSEC\n  - @cybersecoficial\n\nFicarei muito feliz em conversar sobre projetos, parcerias ou responder suas dúvidas! 😊',
+        about: '🎯 Prazer em conhecer você! Sou Ramon Brito, 24 anos, estudante de Engenharia de Software e apaixonado por tecnologia e Inteligência Artificial:\n\n• Desenvolvedor focado em produtos baseados em IA\n• Criador de bots inteligentes para WhatsApp (FastAPI, Qwen, APIs)\n• Especialista em integrações com CRM e automações\n• Com background em análise de infraestrutura e cibersegurança\n\nQuer saber mais sobre alguma área específica?',
+        experience: '💼 Que legal seu interesse! Aqui está minha experiência profissional focada em tecnologia e IA:\n\n• Estagiário de Dados e IA - Colmeia Tech (Atual)\n  - Criação de bots de atendimento via WhatsApp usando FastAPI\n  - Integrações com CRM estruturadas com Inteligência Artificial\n  - Extração e análise de dados para tomada de decisões\n\n• Estagiário de TI - CRECI-CE\n  - Manutenção e otimização de infraestrutura tecnológica\n\n• Projetos Independentes e Pesquisa\n  - Implantação de LLMs locais e integração de fluxos inteligentes\n  - Desenvolvimento de projetos voltados à inovação (IoT, Chatbots)\n\nQuer saber mais detalhes sobre alguma dessas experiências?',
+        projects: '🚀 Ótima pergunta! Aqui estão meus principais projetos no mundo da IA e automação:\n\n• IA Local para Atendimento Automático\n  - Integração nativa com WhatsApp via Waha API\n  - Motor baseado em LLMs locais para privacidade do cliente\n  - Arquitetura robusta com Docker\n\n• Portfolio com Assistente Virtual Integrado\n  - Assistente inteligente em tempo real\n  - React.js e integração avançada com GenAI\n\n• Extratores de Dados e Integrações CRM\n  - Fluxos automáticos utilizando Python e FastAPI\n  - Scripts para ganho de produtividade corporativa\n\nGostaria de conhecer mais sobre algum desses projetos?',
+        skills: '💻 Que bom que perguntou! Minhas ferramentas e conhecimentos principais estão focados em escalabilidade e IA:\n\n• Inteligência Artificial e Automação\n  - Integração com LLMs (Gemini, Claude, Qwen local)\n  - Criação de arquiteturas RAG e fluxos de atendimento (WhatsApp)\n\n• Tecnologias Web e Backend\n  - Python (FastAPI, Flask) e Node.js\n  - React.js e interfaces dinâmicas\n  - Integrações REST \n\n• Infraestrutura e DevOps\n  - Docker, Git, Linux estruturado\n  - Banco de dados relacional e não relacional\n\n• Outros conhecimentos\n  - Boas práticas de Segurança (background em Cibersegurança)\n  - Java e C++\n\nQuer saber mais sobre alguma dessas tecnologias?',
+        education: '📚 Que bom seu interesse! Aqui está minha base acadêmica:\n\n• Graduação em Engenharia de Software\n  - Centro Universitário Ateneu\n  - Estudando (2024-2027)\n\n• Ensino Médio Técnico\n  - EEEP Juarez Távora\n  - Concluído em 2021\n\n• Outras atuações\n  - Pesquisas autônomas e contínuas sobre aplicações práticas de LLMs\n  - Atuação passada como Diretor de Educação na LaSEC (Cibersegurança)\n\nGostaria de saber mais sobre alguma área específica?',
+        contact: '📱 Fico feliz com seu interesse! Aqui estão as melhores formas de conversar comigo sobre projetos de IA e Automação:\n\n• Telefone/WhatsApp\n  - (85) 99253-9800\n\n• Email\n  - ramonbritodev@gmail.com\n\n• LinkedIn\n  - linkedin.com/in/ramon-brito-439975279\n\nFicarei muito feliz em conversar sobre novos projetos de IA, bots para sua empresa ou integrações incríveis! 😊',
         default: 'Hmm, não entendi muito bem. 🤔\nQue tal me perguntar sobre:\n• Minha experiência profissional\n• Projetos que desenvolvi\n• Habilidades técnicas\n• Formação acadêmica\n• Como entrar em contato\n\nOu escolha uma das opções abaixo! 👇'
       }
     }
@@ -57,12 +58,13 @@ const translations = {
       education: 'Education',
       experience: 'Experience',
       chat: "Let's Talk",
-      talks: 'Talks'
+      talks: 'Talks',
+      awards: 'Awards'
     },
     hero: {
       title: 'Ramon Brito',
-      role: 'Developer & Cybersecurity Specialist',
-      description: 'Software Engineering student, Education Director at LaSEC, and developer focused on cybersecurity and AI. Committed to making technology more accessible and secure through education and innovation.',
+      role: 'Developer focused on Artificial Intelligence & Automation',
+      description: 'Software Engineering student and developer focused on creating AI products, WhatsApp integrations, and FastAPI. Experienced in creating automated solutions, with additional background in cybersecurity.',
       buttons: {
         projects: 'View Projects',
         chat: 'Chat with Me'
@@ -70,7 +72,7 @@ const translations = {
     },
     projects: {
       title: 'Featured Projects',
-      description: 'Explore some of my main projects in cybersecurity and education.',
+      description: 'Explore some of my main projects focused on building AI and Automation Solutions.',
       viewProject: 'View Project'
     },
     chat: {
@@ -87,12 +89,12 @@ const translations = {
         contact: '📱 How can I contact you?'
       },
       responses: {
-        about: "🎯 Nice to meet you! I'm Ramon Brito, 24 years old, Software Engineering student and passionate about technology:\n\n• Education Director at LaSEC (Academic League of Cybersecurity)\n• Developer focused on cybersecurity and AI\n• Technology Speaker and Educator\n• Committed to accessible and secure tech education\n\nWould you like to know more about any specific area?",
-        experience: "💼 Great interest! Here's my professional experience:\n\n• IT Intern - CRECI-CE (2024 - Present)\n  - Technical support (N1 tickets)\n  - Infrastructure maintenance and optimization\n  - Development project participation\n\n• Technical Intern - SEINF (2021)\n  - Public works project analysis\n  - Technical report creation\n\n• Education Director - LaSEC\n  - Educational content creation\n  - Security event organization\n  - Training new professionals\n\nWould you like to know more details about any of these experiences?",
-        projects: "🚀 Great question! Here are my main projects:\n\n• Interactive Portfolio\n  - Multilingual chat interface\n  - Modern responsive design\n  - React.js and Context API\n\n• Local AI for Support\n  - WhatsApp integration\n  - Local LLMs and Docker\n  - Offline security\n\n• Robot Dog Apollo\n  - Sensor integration\n  - Secure home automation\n  - ESP32 and HLK-LD2410B\n\n• Secure Password Generator\n  - Online tool\n  - Random and secure passwords\n\nWould you like to learn more about any of these projects?",
-        skills: "💻 I'm glad you asked! Here are my main skills:\n\n• Languages & Frameworks\n  - Python, Java, JavaScript, C++\n  - Node.js, Flask, React.js\n\n• DevOps & Infrastructure\n  - Git, Docker, REST APIs\n  - Linux (Arch, Ubuntu)\n  - SQL and CLI\n\n• Cybersecurity\n  - Local LLMs\n  - CTF challenges\n  - Python firewall\n\n• Soft Skills\n  - Teaching\n  - Team leadership\n  - Problem solving\n\nWould you like to know more about any of these technologies?",
-        education: "📚 Thanks for asking! Here's my education:\n\n• Software Engineering Degree\n  - Centro Universitário Ateneu\n  - 4th Semester (2024-2027)\n\n• Technical High School\n  - EEEP Juarez Távora\n  - Completed in 2021\n\n• Certifications\n  - ITIL Introduction (2024)\n\n• Events and Talks\n  - Universo UniAteneu\n  - CTF Competition - LaSEC\n  - Digital Inclusion at Lar Três Irmãs\n\nWould you like to know more about any specific area?",
-        contact: "📱 I'm happy you're interested! Here are the best ways to reach me:\n\n• Phone\n  - +55 (85) 99253-9800\n\n• Email\n  - ramonbritodev@gmail.com\n\n• LinkedIn\n  - linkedin.com/in/ramon-brito-439975279\n\n• LaSEC Instagram\n  - @cybersecoficial\n\nI'll be very happy to discuss projects, partnerships or answer your questions! 😊",
+        about: "🎯 Nice to meet you! I'm Ramon Brito, 24 years old, Software Engineering student and passionate about technology and Artificial Intelligence:\n\n• Developer focused on AI-based products\n• Creator of intelligent WhatsApp bots (FastAPI, Qwen, APIs)\n• Specialist in CRM integrations and automations\n• With additional background in infrastructure and cybersecurity\n\nWould you like to know more about any specific area?",
+        experience: "💼 Great interest! Here's my professional experience focused on tech and AI:\n\n• Data and AI Intern - Colmeia Tech (Present)\n  - Creation of WhatsApp customer service bots using FastAPI\n  - CRM integrations structured with Artificial Intelligence\n  - Data extraction and analysis for decision making\n\n• IT Intern - CRECI-CE\n  - Technology infrastructure maintenance and optimization\n\n• Independent Projects and Research\n  - Deployment of local LLMs and integration of smart workflows\n  - Development of innovation-driven projects (IoT, Chatbots)\n\nWould you like to know more details about any of these experiences?",
+        projects: "🚀 Great question! Here are my main projects in the AI and automation world:\n\n• Local AI for Automated Support\n  - Native WhatsApp integration via Waha API\n  - Engine based on local LLMs for client privacy\n  - Robust architecture using Docker\n\n• Portfolio with Integrated Virtual Assistant\n  - Real-time intelligent bot assistant\n  - React.js and advanced GenAI integration\n\n• Data Extractors and CRM Integrations\n  - Automatic workflows using Python and FastAPI\n  - Scripts for corporate productivity gains\n\nWould you like to learn more about any of these projects?",
+        skills: "💻 I'm glad you asked! My main tools and knowledge focus on scalability and AI:\n\n• Artificial Intelligence and Automation\n  - Integration with LLMs (Gemini, Claude, local Qwen)\n  - RAG architectures and automated messaging flows (WhatsApp)\n\n• Web and Backend Technologies\n  - Python (FastAPI, Flask) and Node.js\n  - React.js and dynamic interfaces\n  - REST integrations\n\n• Infrastructure and DevOps\n  - Docker, Git, structured Linux environments\n  - Relational and non-relational databases\n\n• Additional Knowledge\n  - Good Security practices (Cybersecurity background)\n  - Java and C++\n\nWould you like to know more about any of these technologies?",
+        education: "📚 Thanks for asking! Here's my academic foundation:\n\n• Software Engineering Degree\n  - Centro Universitário Ateneu\n  - Studying (2024-2027)\n\n• Technical High School\n  - EEEP Juarez Távora\n  - Completed in 2021\n\n• Additional Engagements\n  - Independent and continuous research on LLM practical applications\n  - Past role as Education Director at LaSEC (Cybersecurity)\n\nWould you like to know more about any specific area?",
+        contact: "📱 I'm happy you're interested! Here are the best ways to reach me regarding AI and Automation projects:\n\n• Phone/WhatsApp\n  - +55 (85) 99253-9800\n\n• Email\n  - ramonbritodev@gmail.com\n\n• LinkedIn\n  - linkedin.com/in/ramon-brito-439975279\n\nI'll be very happy to discuss new AI projects, bots for your business, or amazing integrations! 😊",
         default: "Hmm, I didn't quite get that. 🤔\nHow about asking me about:\n• My professional experience\n• Projects I've developed\n• Technical skills\n• Academic background\n• How to get in touch\n\nOr choose one of the options below! 👇"
       }
     }
@@ -105,12 +107,13 @@ const translations = {
       education: 'Educación',
       experience: 'Experiencia',
       chat: 'Hablemos',
-      talks: 'Charlas'
+      talks: 'Charlas',
+      awards: 'Premios'
     },
     hero: {
       title: 'Ramon Brito',
-      role: 'Desarrollador y Especialista en Ciberseguridad',
-      description: 'Estudiante de Ingeniería de Software, Director de Educación en LaSEC y desarrollador enfocado en ciberseguridad e IA. Comprometido en hacer la tecnología más accesible y segura a través de la educación y la innovación.',
+      role: 'Desarrollador enfocado en Inteligencia Artificial y Automatización',
+      description: 'Estudiante de Ingeniería de Software y desarrollador enfocado en la creación de productos de IA, integraciones con WhatsApp y FastAPI. Experiencia en la creación de soluciones automatizadas, con conocimientos adicionales en ciberseguridad.',
       buttons: {
         projects: 'Ver Proyectos',
         chat: 'Habla Conmigo'
@@ -118,7 +121,7 @@ const translations = {
     },
     projects: {
       title: 'Proyectos Destacados',
-      description: 'Conoce algunos de mis principales proyectos en cibersegurança y educación.',
+      description: 'Conoce algunos de mis principales proyectos enfocados en la Creación de Soluciones con IA y Automatización.',
       viewProject: 'Ver Projeto'
     },
     chat: {
@@ -135,12 +138,12 @@ const translations = {
         contact: '📱 ¿Cómo puedo contactarte?'
       },
       responses: {
-        about: '🎯 ¡Encantado de conocerte! Soy Ramon Brito, 24 años, estudiante de Ingeniería de Software y apasionado por la tecnología:\n\n• Director de Educación en LaSEC (Liga Académica de Ciberseguridad)\n• Desarrollador enfocado en ciberseguridad e IA\n• Ponente y Educador en Tecnología\n• Comprometido com a educação tecnológica acessível e segura\n\n¿Te gustaría saber más sobre algún área específica?',
-        experience: '💼 ¡Qué bueno tu interés! Aquí está mi experiencia profissional:\n\n• Pasante de TI - CRECI-CE (2024 - Presente)\n  - Soporte técnico (tickets N1)\n  - Mantenimiento y optimización de infraestrutura\n  - Participación en proyectos de desenvolvimento\n\n• Pasante Técnico - SEINF (2021)\n  - Análisis de proyectos de obras públicas\n  - Creación de informes técnicos\n\n• Director de Educación - LaSEC\n  - Creación de conteúdos educacionais\n  - Organização de eventos de segurança\n  - Formação de novos profissionais\n\n¿Te gustaría saber más detalles sobre alguna de estas experiencias?',
-        projects: '🚀 ¡Excelente pregunta! Aquí están mis principales proyectos:\n\n• Portfolio Interativo\n  - Interfaz de chat multilingüe\n  - Diseño responsivo e moderno\n  - React.js e Context API\n\n• IA Local para Atendimento\n  - Integración con WhatsApp\n  - LLMs locais e Docker\n  - Segurança offline\n\n• Robot Dog Apollo\n  - Integración de sensores\n  - Automatización residencial segura\n  - ESP32 e HLK-LD2410B\n\n• Generador de Contraseñas Seguras\n  - Herramienta online\n  - Contraseñas aleatórias e seguras\n\n¿Te gustaría conocer más sobre alguno de estos projetos?',
-        skills: '💻 ¡Me alegro que preguntes! Aquí están mis principales habilidades:\n\n• Lenguajes y Frameworks\n  - Python, Java, JavaScript, C++\n  - Node.js, Flask, React.js\n\n• DevOps e Infraestructura\n  - Git, Docker, REST APIs\n  - Linux (Arch, Ubuntu)\n  - SQL y CLI\n\n• Ciberseguridad\n  - LLMs locais\n  - Desafíos CTF\n  - Firewall en Python\n\n• Habilidades Blandas\n  - Didáctica\n  - Liderazgo de equipe\n  - Resolução de problemas\n\n¿Te gustaría saber más sobre alguna de estas tecnologías?',
-        education: '📚 ¡Gracias por preguntar! Aquí está mi formación:\n\n• Grado en Ingeniería de Software\n  - Centro Universitário Ateneu\n  - 4º Semestre (2024-2027)\n\n• Escuela Secundaria Técnica\n  - EEEP Juarez Távora\n  - Completado en 2021\n\n• Certificaciones\n  - ITIL Introduction (2024)\n\n• Eventos y Charlas\n  - Universo UniAteneu\n  - Competencia CTF - LaSEC\n  - Inclusión Digital en Lar Três Irmãs\n\n¿Te gustaría saber más sobre algún área específica?',
-        contact: '📱 ¡Me alegro que estés interesado! Aquí están las mejores formas de contactarme:\n\n• Teléfono\n  - +55 (85) 99253-9800\n\n• Email\n  - ramonbritodev@gmail.com\n\n• LinkedIn\n  - linkedin.com/in/ramon-brito-439975279\n\n• Instagram de LaSEC\n  - @cybersecoficial\n\n¡Estaré encantado de hablar sobre proyectos, colaboraciones o responder tus preguntas! 😊',
+        about: '🎯 ¡Encantado de conocerte! Soy Ramon Brito, 24 años, estudiante de Ingeniería de Software y apasionado por la tecnología y la Inteligencia Artificial:\n\n• Desarrollador enfocado en productos basados en IA\n• Creador de bots inteligentes para WhatsApp (FastAPI, Qwen, APIs)\n• Especialista en integraciones con CRM y automatizaciones\n• Con conocimientos adicionales en infraestructura y ciberseguridad\n\n¿Te gustaría saber más sobre algún área específica?',
+        experience: '💼 ¡Qué bueno tu interés! Aquí está mi experiencia profesional enfocada en tecnología e IA:\n\n• Pasante de Datos e IA - Colmeia Tech (Presente)\n  - Creación de bots de atención vía WhatsApp usando FastAPI\n  - Integraciones con CRM estructuradas con Inteligencia Artificial\n  - Extracción y análisis de datos para la toma de decisiones\n\n• Pasante de TI - CRECI-CE\n  - Mantenimiento y optimización de infraestructura tecnológica\n\n• Proyectos Independientes e Investigación\n  - Implementación de LLMs locales e integración de flujos inteligentes\n  - Desarrollo de proyectos orientados a la innovación (IoT, Chatbots)\n\n¿Te gustaría saber más detalles sobre alguna de estas experiencias?',
+        projects: '🚀 ¡Excelente pregunta! Aquí están mis principales proyectos en el mundo de la IA y automatización:\n\n• IA Local para Atención Automática\n  - Integración nativa con WhatsApp vía Waha API\n  - Motor basado en LLMs locales para la privacidad del cliente\n  - Arquitectura robusta usando Docker\n\n• Portfolio con Asistente Virtual Integrado\n  - Asistente inteligente en tiempo real\n  - React.js e integración avanzada de GenAI\n\n• Extractores de Datos e Integraciones CRM\n  - Flujos automáticos utilizando Python y FastAPI\n  - Scripts para mejorar la productividad corporativa\n\n¿Te gustaría conocer más sobre alguno de estos projetos?',
+        skills: '💻 ¡Me alegro que preguntes! Mis herramientas y conocimientos principales se enfocan en escalabilidad e IA:\n\n• Inteligencia Artificial y Automatización\n  - Integración con LLMs (Gemini, Claude, Qwen local)\n  - Creación de arquitecturas RAG y flujos de atención (WhatsApp)\n\n• Tecnologías Web y Backend\n  - Python (FastAPI, Flask) y Node.js\n  - React.js e interfaces dinámicas\n  - Integraciones REST\n\n• Infraestructura y DevOps\n  - Docker, Git, entornos Linux estructurados\n  - Base de datos relacional y no relacional\n\n• Conocimientos adicionales\n  - Buenas prácticas de Seguridad (conocimientos de Ciberseguridad)\n  - Java y C++\n\n¿Te gustaría saber más sobre alguna de estas tecnologías?',
+        education: '📚 ¡Gracias por preguntar! Aquí está mi formación académica:\n\n• Grado en Ingeniería de Software\n  - Centro Universitário Ateneu\n  - Estudiando (2024-2027)\n\n• Escuela Secundaria Técnica\n  - EEEP Juarez Távora\n  - Completado en 2021\n\n• Actividades Adicionales\n  - Invesigación independiente sobre aplicaciones prácticas de LLMs\n  - Rol anterior como Director de Educación en LaSEC (Ciberseguridad)\n\n¿Te gustaría saber más sobre algún área específica?',
+        contact: '📱 ¡Me alegro que estés interesado! Aquí están las mejores formas de hablar conmigo sobre proyectos de IA y Automatización:\n\n• Teléfono/WhatsApp\n  - +55 (85) 99253-9800\n\n• Email\n  - ramonbritodev@gmail.com\n\n• LinkedIn\n  - linkedin.com/in/ramon-brito-439975279\n\n¡Estaré encantado de hablar sobre nuevos proyectos de IA, bots para tu negocio o integraciones! 😊',
         default: 'Hmm, no entendí muy bien. 🤔\n¿Qué tal si me preguntas sobre:\n• Mi experiencia profesional\n• Proyectos que he desarrollado\n• Habilidades técnicas\n• Formación académica\n• Cómo contactarme\n\n¡O elige una de las opciones abajo! 👇'
       }
     }

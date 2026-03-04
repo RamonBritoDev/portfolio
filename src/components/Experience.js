@@ -8,13 +8,25 @@ const Experience = () => {
   const experienceData = {
     pt: [
       {
-        title: 'Estagiário de Dados',
-        company: 'Colmeia Soluções em Tecnologia — Fortaleza/CE (Remoto)',
-        period: 'Ago/2025 – Atual',
+        title: 'Estagiário em Desenvolvimento de IA',
+        company: 'Wiser Tecnologia',
+        period: 'Nov 2025 - Atual',
         description: [
-          'Apoio no desenvolvimento de softwares com foco em IA',
+          'Desenvolvimento e treinamento de LLMs para criação de soluções e produtos',
+          'Utilização de LLMs open-source e proprietários, além de tecnologias STT e TTS',
+          'Integrações com CRM, WhatsApp e sistema de calling com IA',
+          'Criação de agentes, superagentes e uso de MCP e LangChain',
+        ],
+      },
+      {
+        title: 'Estagiário de Dados com Foco em IA e Automação',
+        company: 'Colmeia Soluções em Tecnologia — Fortaleza/CE (Remoto)',
+        period: 'Ago 2025 - Out 2025',
+        description: [
+          'Desenvolvimento de produtos baseados em IA',
+          'Integrações com CRM estruturadas com Inteligência Artificial',
+          'Criação de bots de atendimento via WhatsApp usando FastAPI e LLMs',
           'Análise, tratamento e extração de dados',
-          'Participação em projetos de inteligência artificial e automação',
         ],
       },
       {
@@ -58,13 +70,25 @@ const Experience = () => {
     ],
     en: [
       {
-        title: 'Data Intern',
-        company: 'Colmeia Soluções em Tecnologia — Fortaleza/CE (Remote)',
-        period: 'Aug 2025 - Present',
+        title: 'AI Development Intern',
+        company: 'Wiser Tecnologia',
+        period: 'Nov 2025 - Present',
         description: [
-          'Support in the development of AI-focused software',
+          'Development and training of LLMs to create solutions and products',
+          'Utilization of open-source and proprietary LLMs, along with STT and TTS technologies',
+          'Integrations with CRM, WhatsApp, and AI calling systems',
+          'Creation of agents, superagents, and use of MCP and LangChain',
+        ],
+      },
+      {
+        title: 'Data Intern with focus on AI and Automation',
+        company: 'Colmeia Soluções em Tecnologia — Fortaleza/CE (Remote)',
+        period: 'Aug 2025 - Oct 2025',
+        description: [
+          'Development of AI-based products',
+          'CRM integrations structured with Artificial Intelligence',
+          'Creation of WhatsApp customer service bots using FastAPI and LLMs',
           'Data analysis, processing, and extraction',
-          'Participation in artificial intelligence and automation projects',
         ],
       },
       {
@@ -108,13 +132,25 @@ const Experience = () => {
     ],
     es: [
       {
-        title: 'Pasante de Datos',
-        company: 'Colmeia Soluções em Tecnologia — Fortaleza/CE (Remoto)',
-        period: 'Ago 2025 - Actual',
+        title: 'Pasante en Desarrollo de IA',
+        company: 'Wiser Tecnologia',
+        period: 'Nov 2025 - Actual',
         description: [
-          'Apoyo en el desarrollo de software enfocado en IA',
+          'Desarrollo y entrenamiento de LLMs para la creación de soluciones y productos',
+          'Uso de LLMs de código abierto y propietarios, junto con tecnologías de STT y TTS',
+          'Integraciones con CRM, WhatsApp y sistemas de llamadas con IA',
+          'Creación de agentes, superagentes y uso de MCP y LangChain',
+        ],
+      },
+      {
+        title: 'Pasante de Datos con enfoque en IA y Automatización',
+        company: 'Colmeia Soluções em Tecnologia — Fortaleza/CE (Remoto)',
+        period: 'Ago 2025 - Oct 2025',
+        description: [
+          'Desarrollo de productos basados en IA',
+          'Integraciones con CRM estructuradas con Inteligencia Artificial',
+          'Creación de bots de atención vía WhatsApp usando FastAPI y LLMs',
           'Análisis, procesamiento y extracción de datos',
-          'Participación en proyectos de inteligencia artificial y automatización',
         ],
       },
       {

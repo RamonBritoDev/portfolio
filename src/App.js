@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import Awards from './components/Awards';
 import InteractiveChat from './components/InteractiveChat';
 import Talks from './components/Talks';
 import './App.css';
@@ -25,6 +26,9 @@ function App() {
             </section>
             <section id="experience">
               <Experience />
+            </section>
+            <section id="awards">
+              <Awards />
             </section>
             <section id="projects">
               <Projects />

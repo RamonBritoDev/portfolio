@@ -150,6 +150,15 @@
   right: 0;
   z-index: 1100;
   isolation: isolate;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.4rem;
+  margin-top: 0.35rem;
+  min-width: 160px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .language-option {

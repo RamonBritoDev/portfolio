@@ -9,71 +9,92 @@ const Projects = () => {
   const projectsData = {
     pt: [
       {
-        title: 'Portfolio Interativo',
-        description: 'Portfolio profissional com interface de chat interativa multilíngue, design responsivo e moderno.',
-        tags: ['React.js', 'Context API', 'UX/UI', 'Multilíngue'],
-        link: 'https://github.com/RamonBritoDev/Portfolio',
-        icon: '💻'
+        title: '🏆 LEO Compute Secure — NASA Space Apps',
+        description: '1º Lugar no NASA Space Apps Challenge Fortaleza 2025. Protocolo inovador para processamento de dados seguros com IA, voltado ao processamento multifatorial de dados e satélites em órbita baixa (LEO).',
+        tags: ['IA', 'Satélites LEO', 'Dados Seguros', 'NASA', '1º Lugar'],
+        link: 'https://www.spaceappschallenge.org/2025/find-a-team/galileo-nasa-space-apps/?tab=project',
+        icon: '🛰️'
       },
       {
         title: 'IA Local para Atendimento',
-        description: 'Sistema de atendimento via WhatsApp usando LLMs locais, com foco em segurança offline.',
-        tags: ['Docker', 'Qwen', 'Waha API', 'WhatsApp'],
+        description: 'Sistema de atendimento via WhatsApp usando LLMs locais e FastAPI, com motor de decisões para integrações em CRM e foco em segurança.',
+        tags: ['FastAPI', 'Docker', 'Qwen', 'Waha API', 'CRM'],
         link: 'https://github.com/RamonBritoDev/IA-Local-Com-Whatsapp',
         icon: '🤖'
       },
       {
-        title: 'Gerador de Senhas',
-        description: 'Ferramenta online para criação de senhas seguras, aleatórias e livres de padrões fracos.',
-        tags: ['Segurança', 'Web', 'Criptografia'],
-        link: 'https://github.com/RamonBritoDev/Projeto-gerador-de-senhas',
-        icon: '🔐'
+        title: 'Galeteria Skina do Frango — Sistema de Delivery',
+        description: 'Sistema fullstack completo de gerenciamento de delivery com painel administrativo de produtos, pedidos em tempo real, integração com impressoras em rede e deploy em nuvem.',
+        tags: ['React.js', 'FastAPI', 'Docker', 'Cloud', 'Impressoras em Rede', 'Fullstack'],
+        link: 'https://galeteriaskinadofrango.site/',
+        icon: '🍗'
+      },
+      {
+        title: 'Galeteria Aguiar — Sistema de Delivery',
+        description: 'Plataforma fullstack de delivery com administração completa de cardápio, gestão de pedidos, integração com impressoras térmicas em rede e infraestrutura em nuvem com Docker.',
+        tags: ['React.js', 'FastAPI', 'Docker', 'Cloud', 'Impressoras em Rede', 'Fullstack'],
+        link: 'https://galeteriaaguiar.site/',
+        icon: '🍗'
       }
     ],
     en: [
       {
-        title: 'Interactive Portfolio',
-        description: 'Professional portfolio with multilingual interactive chat interface, responsive and modern design.',
-        tags: ['React.js', 'Context API', 'UX/UI', 'Multilingual'],
-        link: 'https://github.com/RamonBritoDev/Portfolio',
-        icon: '💻'
+        title: '🏆 LEO Compute Secure — NASA Space Apps',
+        description: '1st Place at NASA Space Apps Challenge Fortaleza 2025. Innovative protocol for secure data processing with AI, focused on multifactorial data processing and Low Earth Orbit (LEO) satellites.',
+        tags: ['AI', 'LEO Satellites', 'Secure Data', 'NASA', '1st Place'],
+        link: 'https://www.spaceappschallenge.org/2025/find-a-team/galileo-nasa-space-apps/?tab=project',
+        icon: '🛰️'
       },
       {
         title: 'Local AI for Support',
-        description: 'WhatsApp support system using local LLMs, focused on offline security.',
-        tags: ['Docker', 'Qwen', 'Waha API', 'WhatsApp'],
+        description: 'WhatsApp support system using local LLMs and FastAPI, featuring a decision engine for CRM integrations.',
+        tags: ['FastAPI', 'Docker', 'Qwen', 'Waha API', 'CRM'],
         link: 'https://github.com/RamonBritoDev/IA-Local-Com-Whatsapp',
         icon: '🤖'
       },
       {
-        title: 'Password Generator',
-        description: 'Online tool for creating secure, random passwords free from weak patterns.',
-        tags: ['Security', 'Web', 'Cryptography'],
-        link: 'https://github.com/RamonBritoDev/Projeto-gerador-de-senhas',
-        icon: '🔐'
+        title: 'Galeteria Skina do Frango — Delivery System',
+        description: 'Complete fullstack delivery management system with product admin panel, real-time orders, network printer integration, and cloud deployment.',
+        tags: ['React.js', 'FastAPI', 'Docker', 'Cloud', 'Network Printers', 'Fullstack'],
+        link: 'https://galeteriaskinadofrango.site/',
+        icon: '🍗'
+      },
+      {
+        title: 'Galeteria Aguiar — Delivery System',
+        description: 'Fullstack delivery platform with complete menu management, order handling, thermal network printer integration, and Docker-based cloud infrastructure.',
+        tags: ['React.js', 'FastAPI', 'Docker', 'Cloud', 'Network Printers', 'Fullstack'],
+        link: 'https://galeteriaaguiar.site/',
+        icon: '🍗'
       }
     ],
     es: [
       {
-        title: 'Portfolio Interactivo',
-        description: 'Portfolio profesional con interfaz de chat interactiva multilingüe, diseño responsivo y moderno.',
-        tags: ['React.js', 'Context API', 'UX/UI', 'Multilingüe'],
-        link: 'https://github.com/RamonBritoDev/Portfolio',
-        icon: '💻'
+        title: '🏆 LEO Compute Secure — NASA Space Apps',
+        description: '1er Lugar en NASA Space Apps Challenge Fortaleza 2025. Protocolo innovador para procesamiento seguro de datos con IA, enfocado en procesamiento multifactorial de datos y satélites en órbita baja (LEO).',
+        tags: ['IA', 'Satélites LEO', 'Datos Seguros', 'NASA', '1er Lugar'],
+        link: 'https://www.spaceappschallenge.org/2025/find-a-team/galileo-nasa-space-apps/?tab=project',
+        icon: '🛰️'
       },
       {
         title: 'IA Local para Atención',
-        description: 'Sistema de atención vía WhatsApp usando LLMs locales, con enfoque en seguridad offline.',
-        tags: ['Docker', 'Qwen', 'Waha API', 'WhatsApp'],
+        description: 'Sistema de atención vía WhatsApp usando LLMs locales y FastAPI, con motor de decisiones para integraciones en CRM.',
+        tags: ['FastAPI', 'Docker', 'Qwen', 'Waha API', 'CRM'],
         link: 'https://github.com/RamonBritoDev/IA-Local-Com-Whatsapp',
         icon: '🤖'
       },
       {
-        title: 'Generador de Contraseñas',
-        description: 'Herramienta online para crear contraseñas seguras, aleatorias y libres de patrones débiles.',
-        tags: ['Seguridad', 'Web', 'Criptografía'],
-        link: 'https://github.com/RamonBritoDev/Projeto-gerador-de-senhas',
-        icon: '🔐'
+        title: 'Galeteria Skina do Frango — Sistema de Delivery',
+        description: 'Sistema fullstack completo de gestión de delivery con panel de administración de productos, pedidos en tiempo real, integración con impresoras en red y despliegue en la nube.',
+        tags: ['React.js', 'FastAPI', 'Docker', 'Cloud', 'Impresoras en Red', 'Fullstack'],
+        link: 'https://galeteriaskinadofrango.site/',
+        icon: '🍗'
+      },
+      {
+        title: 'Galeteria Aguiar — Sistema de Delivery',
+        description: 'Plataforma fullstack de delivery con gestión completa de menú, manejo de pedidos, integración con impresoras térmicas en red e infraestructura en la nube con Docker.',
+        tags: ['React.js', 'FastAPI', 'Docker', 'Cloud', 'Impresoras en Red', 'Fullstack'],
+        link: 'https://galeteriaaguiar.site/',
+        icon: '🍗'
       }
     ]
   };
