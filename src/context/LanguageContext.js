@@ -48,6 +48,38 @@ const translations = {
         contact: '📱 Fico feliz com seu interesse! Aqui estão as melhores formas de conversar comigo sobre projetos de IA e Automação:\n\n• Telefone/WhatsApp\n  - (85) 99253-9800\n\n• Email\n  - ramonbritodev@gmail.com\n\n• LinkedIn\n  - linkedin.com/in/ramon-brito-439975279\n\nFicarei muito feliz em conversar sobre novos projetos de IA, bots para sua empresa ou integrações incríveis! 😊',
         default: 'Hmm, não entendi muito bem. 🤔\nQue tal me perguntar sobre:\n• Minha experiência profissional\n• Projetos que desenvolvi\n• Habilidades técnicas\n• Formação acadêmica\n• Como entrar em contato\n\nOu escolha uma das opções abaixo! 👇'
       }
+    },
+    omniachain: {
+      subtitle: 'O motor definitivo para agentes de Inteligência Artificial.',
+      description: 'Framework Python assíncrono para orquestração de IAs multimodais com integração nativa ao Model Context Protocol (MCP) e segurança militar.',
+      highlights: {
+        blocking: {
+          title: 'Zero Blocking',
+          desc: 'Todo o core foi construído sobre asyncio. Permite que o agente consulte vetores, pesquise na web e chame APIs simultaneamente.'
+        },
+        mcp: {
+          title: 'Suporte Nativo MCP',
+          desc: 'Integração pioneira com o Model Context Protocol. Consuma servidores MCP ou transforme ferramentas em servidores em 10 linhas.'
+        },
+        security: {
+          title: 'Segurança Nível Militar',
+          desc: 'Sistema de permissões atrelado a Fingerprints PGP. Garante que ferramentas críticas só rodem com a assinatura correta.'
+        },
+        multimodal: {
+          title: 'Multimodalidade Verdadeira',
+          desc: 'Ingere e entende dinamicamente PDFs, imagens, vídeos, planilhas CSV e áudios diretamente no contexto.'
+        },
+        orchestration: {
+          title: 'Orquestração Avançada',
+          desc: 'Suporte a ReAct, Supervisor e Planner estruturados em grafos, com memórias vetoriais no PostgreSQL (pgvector).'
+        }
+      },
+      stack: '🛠️ Stack Tecnológico',
+      links: {
+        github: 'Ver repositório no GitHub',
+        site: 'Site Oficial',
+        pypi: 'Ver no PyPI'
+      }
     }
   },
   en: {
@@ -97,6 +129,38 @@ const translations = {
         contact: "📱 I'm happy you're interested! Here are the best ways to reach me regarding AI and Automation projects:\n\n• Phone/WhatsApp\n  - +55 (85) 99253-9800\n\n• Email\n  - ramonbritodev@gmail.com\n\n• LinkedIn\n  - linkedin.com/in/ramon-brito-439975279\n\nI'll be very happy to discuss new AI projects, bots for your business, or amazing integrations! 😊",
         default: "Hmm, I didn't quite get that. 🤔\nHow about asking me about:\n• My professional experience\n• Projects I've developed\n• Technical skills\n• Academic background\n• How to get in touch\n\nOr choose one of the options below! 👇"
       }
+    },
+    omniachain: {
+      subtitle: 'The ultimate engine for Artificial Intelligence agents.',
+      description: 'Asynchronous Python framework for multimodal AI orchestration with native Model Context Protocol (MCP) integration and military-grade security.',
+      highlights: {
+        blocking: {
+          title: 'Zero Blocking',
+          desc: 'The entire core is built on asyncio. Allows agents to query vector databases, search the web, and call APIs simultaneously.'
+        },
+        mcp: {
+          title: 'Native MCP Support',
+          desc: 'Pioneering integration with the Model Context Protocol. Consume MCP servers or turn tools into servers in under 10 lines.'
+        },
+        security: {
+          title: 'Military-Grade Security',
+          desc: 'Permission system tied to PGP Fingerprints. Ensures critical tools only run with the correct cryptographic signature.'
+        },
+        multimodal: {
+          title: 'True Multimodality',
+          desc: 'Dynamically ingests and understands PDFs, images, videos, CSVs, and audio directly within the request context.'
+        },
+        orchestration: {
+          title: 'Advanced Orchestration',
+          desc: 'Native support for ReAct, Supervisor, and Planner architectures in execution graphs with pgvector memory.'
+        }
+      },
+      stack: '🛠️ Tech Stack',
+      links: {
+        github: 'View on GitHub',
+        site: 'Official Site',
+        pypi: 'View on PyPI'
+      }
     }
   },
   es: {
@@ -145,6 +209,38 @@ const translations = {
         education: '📚 ¡Gracias por preguntar! Aquí está mi formación académica:\n\n• Grado en Ingeniería de Software\n  - Centro Universitário Ateneu\n  - Estudiando (2024-2027)\n\n• Escuela Secundaria Técnica\n  - EEEP Juarez Távora\n  - Completado en 2021\n\n• Actividades Adicionales\n  - Invesigación independiente sobre aplicaciones prácticas de LLMs\n  - Rol anterior como Director de Educación en LaSEC (Ciberseguridad)\n\n¿Te gustaría saber más sobre algún área específica?',
         contact: '📱 ¡Me alegro que estés interesado! Aquí están las mejores formas de hablar conmigo sobre proyectos de IA y Automatización:\n\n• Teléfono/WhatsApp\n  - +55 (85) 99253-9800\n\n• Email\n  - ramonbritodev@gmail.com\n\n• LinkedIn\n  - linkedin.com/in/ramon-brito-439975279\n\n¡Estaré encantado de hablar sobre nuevos proyectos de IA, bots para tu negocio o integraciones! 😊',
         default: 'Hmm, no entendí muy bien. 🤔\n¿Qué tal si me preguntas sobre:\n• Mi experiencia profesional\n• Proyectos que he desarrollado\n• Habilidades técnicas\n• Formación académica\n• Cómo contactarme\n\n¡O elige una de las opciones abajo! 👇'
+      }
+    },
+    omniachain: {
+      subtitle: 'El motor definitivo para agentes de Inteligencia Artificial.',
+      description: 'Framework Python asíncrono para orquestración de IAs multimodales con integración nativa al Model Context Protocol (MCP) y seguridad militar.',
+      highlights: {
+        blocking: {
+          title: 'Zero Blocking',
+          desc: 'Todo el núcleo está construido sobre asyncio. Permite que el agente consulte vectores, busque en la web y llame APIs simultáneamente.'
+        },
+        mcp: {
+          title: 'Soporte Nativo MCP',
+          desc: 'Integración pionera con el Model Context Protocol. Consuma servidores MCP o transforme herramientas en servidores en 10 líneas.'
+        },
+        security: {
+          title: 'Seguridad Nivel Militar',
+          desc: 'Sistema de permisos vinculado a Fingerprints PGP. Garantiza que las herramientas críticas solo se ejecuten con la firma correcta.'
+        },
+        multimodal: {
+          title: 'Multimodalidad Verdadera',
+          desc: 'Ingiere y entiende dinámicamente PDFs, imágenes, videos, hojas CSV y audios directamente en el contexto.'
+        },
+        orchestration: {
+          title: 'Orquestación Avanzada',
+          desc: 'Soporte para ReAct, Supervisor y Planner estructurados en grafos, con memorias vectoriales en PostgreSQL (pgvector).'
+        }
+      },
+      stack: '🛠️ Stack Tecnológico',
+      links: {
+        github: 'Ver repositorio en GitHub',
+        site: 'Sitio Oficial',
+        pypi: 'Ver en PyPI'
       }
     }
   }

@@ -4,6 +4,7 @@ import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
+import OmniaChain from './components/OmniaChain';
 import Experience from './components/Experience';
 import Awards from './components/Awards';
 import InteractiveChat from './components/InteractiveChat';
@@ -33,6 +34,7 @@ function App() {
             <section id="projects">
               <Projects />
             </section>
+            <OmniaChain />
             <section id="talks">
               <Talks />
             </section>
