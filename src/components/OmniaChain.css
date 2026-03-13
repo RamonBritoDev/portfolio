@@ -218,6 +218,15 @@
   margin: 0 auto 1.5rem auto;
 }
 
+.highlight-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.omnia-btn svg {
+  flex-shrink: 0;
+}
+
 .highlight-card h3 {
   font-size: 1.25rem;
   color: #ffffff;
